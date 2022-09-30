@@ -1,0 +1,115 @@
+.stop-scrolling-mobile,
+.stop-scrolling-mobile .mfp-wrap {
+	overflow: hidden;
+	-ms-touch-action: none;
+	touch-action: none;
+	-webkit-overflow-scrolling: auto;
+	position: fixed !important;
+}
+.search-form {
+	display: block;
+}
+.advisory {
+	overflow: visible;
+}
+@media screen and (max-width: 599px) {
+	.advisory-img {
+		overflow: hidden;
+		z-index: 0;
+	}
+}
+.advisory-form .f-submit.t-center,
+.popup-register-form .f-submit.t-center {
+	text-align: left;
+}
+.flatpickr-wrapper {
+	width: 100%;
+}
+/* Vá»€ CHÃšNG TÃ”I */
+@media screen and (max-width: 991px) {
+	.who {
+		text-align: center;
+	}
+}
+.about-sec:not(.about-sec-2) .cols {
+	-webkit-box-align: stretch;
+	-ms-flex-align: stretch;
+	align-items: stretch;
+}
+.about-sec:not(.about-sec-2) .col:first-child {
+	position: relative;
+}
+.about-sec:not(.about-sec-2) img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+@media screen and (max-width: 991px) {
+	.about-sec:not(.about-sec-2) img {
+		position: static;
+	}
+}
+.about-sec:nth-child(even):not(.about-sec-2) .cols {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+.about-sec:nth-child(even):not(.about-sec-2) img {
+	left: auto;
+	right: 0;
+}
+@media screen and (min-width: 992px) {
+	.about-sec:nth-child(even):not(.about-sec-2) .about-sec-content {
+		text-align: left;
+		padding-left: 3rem;
+	}
+	.about-sec:nth-child(odd):not(.about-sec-2) .about-sec-content {
+		padding-right: 3rem;
+	}
+	.about-sec-2:before {
+		width: 50%;
+	}
+}
+/* HEADER */
+/* .header.--fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-box-shadow: 0 1px 1rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1px 1rem rgba(0, 0, 0, 0.2);
+	-webkit-animation: fadeIn 0.6s;
+	animation: fadeIn 0.6s;
+}
+.admin-bar .header.--fixed {
+	top: 32px;
+}
+
+@media screen and (max-width: 1199px) {
+	.admin-bar .header__list-wrap {
+		top: 32px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.admin-bar .header.--fixed {
+		top: 46px;
+	}
+	.admin-bar .header__list-wrap {
+		top: 46px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.admin-bar .header.--fixed {
+		top: 0;
+	}
+	.admin-bar .header.--fixed .header__list-wrap {
+		top: 0;
+	}
+} */
